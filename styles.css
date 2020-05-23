@@ -76,3 +76,14 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+main a {
+  text-decoration-line: none;
+  color: #4D70B8;
+}
+
+nav a:hover {
+  color: #2652A8;
+  text-decoration-line: underline;
+  transition: 200ms;
+}
