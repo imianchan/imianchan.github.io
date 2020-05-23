@@ -10,22 +10,22 @@ header {
   font-weight: 300;
 }
 
+header h1 {
+  font-size: 24pt;
+  text-align: center;
+  font-weight: 350;
+}
+
 div.container {
   text-align: center;
   padding: 20px;
-  height: 20px;
-  width: 20px;
+  height: 200px;
+  width: 200px;
 }
 
 div.container img {
   width: 100%;
   height: auto;
-}
-
-header h1 {
-  font-size: 24pt;
-  text-align: center;
-  font-weight: 350;
 }
 
 nav {
