@@ -17,6 +17,7 @@ header h1 {
 }
 
 div.container {
+  display: inline-block;
   text-align: center;
   padding: 20px;
   height: 200px;
