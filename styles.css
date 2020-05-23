@@ -10,13 +10,14 @@ header {
   font-weight: 300;
 }
 
-.container {
+div.container {
   text-align: center;
   padding: 20px;
-  height: 50%;
+  height: 200px;
+  width: 200px;
 }
 
-.container img {
+div.container img {
   width: 100%;
   height: auto;
 }
