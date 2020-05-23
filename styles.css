@@ -107,13 +107,17 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid #9d9d9d;
   text-align: left;
-  padding: 8px;
+  padding: 12px;
+}
+
+th {
+  background-color: #dadada;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #f2f2f2;
 }
 
 td:first-child {
