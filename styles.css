@@ -56,7 +56,8 @@ nav a:hover {
 
 main {
   display: block;
-  padding: 20px 100px 20px 100px;
+  padding: 20px;
+  margin: 15%;
 }
 
 main h3 {
