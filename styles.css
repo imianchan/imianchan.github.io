@@ -29,11 +29,6 @@ div.container img {
   height: auto;
 }
 
-.here {
-  font-weight: 500;
-  color: #000000;
-}
-
 nav {
   position: sticky;
   width: 100%;
@@ -41,6 +36,7 @@ nav {
 }
 
 nav a {
+  text-decoration-line: none;
   color: #262626;
   padding: 0 16px 0 16px;
   display:inline-block;
@@ -50,6 +46,11 @@ nav a {
 nav a:hover {
   background-color: #F4F4F4;
   transition: 400ms;
+}
+
+.current {
+  font-weight: 500;
+  color: #000000;
 }
 
 main {
