@@ -1,6 +1,5 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
-  width: 75%;
 }
 
 header {
@@ -54,9 +53,14 @@ nav a:hover {
   color: #000000;
 }
 
+
 main {
   display: block;
   padding: 20px;
+}
+
+main.p {
+  padding: 80px;
 }
 
 main h3 {
