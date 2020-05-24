@@ -107,6 +107,7 @@ footer {
 main p a {
   text-decoration-line: none;
   color: #8e44ad;
+  font-weight: bolder;
 }
 
 main p a:hover {
