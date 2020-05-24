@@ -17,6 +17,10 @@ header h1 {
   font-weight: 350;
 }
 
+h3 {
+  color: #2d1537;
+}
+
 header a {
   text-decoration: none;
   color: #000000;
@@ -106,12 +110,12 @@ footer {
 
 main p a {
   text-decoration-line: none;
-  color: #8e44ad;
+  color: #783993;
   font-weight: bolder;
 }
 
 main p a:hover {
-  color: #5a2b6e;
+  color: #4b245c;
   text-decoration-line: underline;
   transition: 100ms;
 }
