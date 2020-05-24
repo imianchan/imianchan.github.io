@@ -106,11 +106,11 @@ footer {
 
 main p a {
   text-decoration-line: none;
-  color: #4D70B8;
+  color: #8e44ad;
 }
 
 main p a:hover {
-  color: #003399;
+  color: #5a2b6e;
   text-decoration-line: underline;
   transition: 100ms;
 }
