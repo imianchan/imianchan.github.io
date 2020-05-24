@@ -65,25 +65,24 @@ main h3 {
   font-weight: 500;
 }
 
-p {
+main p {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
 footer {
   font-weight: 200;
-  font-size: 9pt;
   color: #737373;
   text-align: center;
-  padding: 10px;
+  line-height: 30px;
 }
 
-p a {
+main p a {
   text-decoration-line: none;
   color: #4D70B8;
 }
 
-p a:hover {
+main p a:hover {
   color: #003399;
   text-decoration-line: underline;
   transition: 100ms;
@@ -122,4 +121,16 @@ tr:nth-child(even) {
 
 td:first-child {
   font-style: italic;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+.fa {
+  text-align: center;
+  text-decoration: none;
+  background: white;
+  color: #737373;
 }
