@@ -21,6 +21,17 @@ div.list {
   line-height: 2;
 }
 
+div.list p a {
+  text-decoration-line: none;
+  color: #4D70B8;
+}
+
+div.list p a:hover {
+  color: #003399;
+  text-decoration-line: underline;
+  transition: 100ms;
+}
+
 div.container {
   display: inline-block;
   text-align: center;
