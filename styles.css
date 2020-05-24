@@ -54,10 +54,17 @@ nav a:hover {
   color: #000000;
 }
 
+b {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
 main {
   display: block;
   padding: 5px;
   margin: 0 15% 0 15%;
+  letter-spacing: 0:01em;
+  font-weight: 250;
 }
 
 main h3 {
@@ -133,4 +140,9 @@ footer p {
   text-decoration: none;
   background: white;
   color: #737373;
+}
+
+.fa:hover {
+  color: #4d4d4d;
+  transition: 150ms;
 }
