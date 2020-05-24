@@ -17,6 +17,10 @@ header h1 {
   font-weight: 350;
 }
 
+div.list {
+  line-height: 2;
+}
+
 div.container {
   display: inline-block;
   text-align: center;
@@ -120,6 +124,7 @@ td, th {
 
 th {
   background-color: #dadada;
+  font-weight: 600;
 }
 
 tr:nth-child(even) {
