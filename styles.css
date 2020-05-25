@@ -50,7 +50,7 @@ div.list a:hover {
 }
 
 div.container {
-  display: inline-block;
+  display: block !important;
   text-align: center !important;
   padding: 5px;
   height: 200px;
@@ -84,13 +84,12 @@ nav a {
 
 nav a:hover {
   background-color: #e3d7f4;
-  font-weight: bolder;
   transition: 400ms;
 }
 
 .current {
-  font-weight: 500;
-  color: #000000 !important;
+  font-weight: 500 !important;
+  color: #000000;
 }
 
 main {
