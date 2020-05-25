@@ -16,14 +16,15 @@ header {
   padding: 20px 0 20px 0;
 }
 
-.dp {
-  height = 200;
-  width = 200;
+#dp {
+  height: 200px;
+  width: 200px;
+  text-align: center;
 }
 
 #center {
-  width = 100%;
-  height = auto;
+  width: 100%;
+  height: auto;
   text-align: center;
   display: block;
   margin: auto;
