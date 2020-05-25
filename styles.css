@@ -49,17 +49,15 @@ div.list a:hover {
   transition: 100ms;
 }
 
-div.container {
-  display: block !important;
-  text-align: center !important;
+.container {
+  text-align: center;
   padding: 5px;
   height: 200px;
   width: 200px;
 }
 
-div.container img {
-  width: 100%;
-  height: auto;
+.container img {
+  display: inline-block;
 }
 
 nav {
