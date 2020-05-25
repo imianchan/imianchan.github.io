@@ -11,17 +11,27 @@ body {
 } 
 
 header {
-  display: block;
   width: 100%;
   padding: 20px 0 20px 0;
+  text-align: center;
 }
 
-#center {
-  width: 50px;
-  height: 50px;
+#a {
   text-align: center;
-  display: block;
-  margin: auto;
+  width: 100%;
+}
+
+#i {
+  text-align: center;
+}
+
+#b {
+  font-weight: 500;
+}
+
+img {
+  max-width: 200px;
+  height: auto;
 }
 
 h1 {
@@ -29,6 +39,7 @@ h1 {
   text-align: center;
   font-weight: 350;
   color: #381B65;
+  margin: 10px;
 }
 
 h3 {
@@ -38,6 +49,7 @@ h3 {
 header a {
   text-decoration-line: none;
   color: #000000;
+  text-align: center;
 }
 
 div.list {
@@ -62,16 +74,10 @@ div.list a:hover {
   width: 200px;
 }
 
-.container img {
-  display: inline-block;
-  width: 100%;
-  height: auto;
-}
-
 nav {
   position: sticky;
   width: 100%;
-  font-size: 15pt;
+  font-size: 13pt;
   text-align: center;
 }
 
