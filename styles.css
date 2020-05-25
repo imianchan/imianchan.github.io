@@ -1,11 +1,14 @@
-::selection { 
-  background-color: #B89AE4;
-} 
+html * {
+  font-family: Helvetica, Arial, sans-serif !important;
+}
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
 }
+
+::selection { 
+  background-color: #d4c3ef;
+} 
 
 header {
   text-align: center;
@@ -15,14 +18,15 @@ header {
   font-weight: 300;
 }
 
-header h1 {
+h1 {
   font-size: 24pt;
   text-align: center;
   font-weight: 350;
+  color: #381B65 !important;
 }
 
 h3 {
-  color: #4F258D;
+  color: #381B65;
 }
 
 header a {
@@ -36,11 +40,11 @@ div.list {
 
 div.list a {
   text-decoration-line: none;
-  color: #7524a8;
+  color: #a857db;
 }
 
 div.list a:hover {
-  color: #491669;
+  color: #671f93;
   text-decoration-line: underline;
   transition: 100ms;
 }
@@ -62,6 +66,7 @@ nav {
   position: sticky;
   width: 100%;
   font-size: 15pt;
+  text-align: center;
 }
 
 nav a {
@@ -73,7 +78,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #D9D9D9;
+  background-color: #d4c3ef;
   transition: 400ms;
 }
 
@@ -107,19 +112,19 @@ main p {
 
 footer {
   font-weight: 200;
-  color: #5A2BA1;
+  color: #8d5ed4;
   text-align: center;
   line-height: 30px;
 }
 
 main p a {
   text-decoration-line: none;
-  color: #7524a8;
+  color: #a857db;
   font-weight: bolder;
 }
 
 main p a:hover {
-  color: #491669;
+  color: #671f93;
   text-decoration-line: underline;
   transition: 100ms;
 }
@@ -127,7 +132,7 @@ main p a:hover {
 h4 {
   font-size: 16pt;
   font-weight: 450;
-  color: #6430B3;
+  color: #4F258D;
 }
 
 h5 {
@@ -135,7 +140,7 @@ h5 {
   font-weight: 400;
   margin-top: 1em;
   margin-bottom: 1em;
-  color: #7136C9;
+  color: #6530B5;
 }
 
 table {
@@ -171,7 +176,7 @@ footer p {
   text-align: center;
   text-decoration: none;
   background: white;
-  color: #5A2BA1;
+  color: #8d5ed4;
 }
 
 .fa:hover {
