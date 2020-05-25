@@ -1,3 +1,7 @@
+::selection { 
+  background-color: #B89AE4;
+} 
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -18,7 +22,7 @@ header h1 {
 }
 
 h3 {
-  color: #4B245C;
+  color: #4F258D;
 }
 
 header a {
@@ -32,11 +36,11 @@ div.list {
 
 div.list a {
   text-decoration-line: none;
-  color: #4D70B8;
+  color: #7524a8;
 }
 
 div.list a:hover {
-  color: #003399;
+  color: #491669;
   text-decoration-line: underline;
   transition: 100ms;
 }
@@ -103,19 +107,19 @@ main p {
 
 footer {
   font-weight: 200;
-  color: #737373;
+  color: #5A2BA1;
   text-align: center;
   line-height: 30px;
 }
 
 main p a {
   text-decoration-line: none;
-  color: #783993;
+  color: #7524a8;
   font-weight: bolder;
 }
 
 main p a:hover {
-  color: #4b245c;
+  color: #491669;
   text-decoration-line: underline;
   transition: 100ms;
 }
@@ -123,6 +127,7 @@ main p a:hover {
 h4 {
   font-size: 16pt;
   font-weight: 450;
+  color: #6430B3;
 }
 
 h5 {
@@ -130,6 +135,7 @@ h5 {
   font-weight: 400;
   margin-top: 1em;
   margin-bottom: 1em;
+  color: #7136C9;
 }
 
 table {
@@ -165,10 +171,10 @@ footer p {
   text-align: center;
   text-decoration: none;
   background: white;
-  color: #737373;
+  color: #5A2BA1;
 }
 
 .fa:hover {
-  color: #4d4d4d;
+  color: #381B65;
   transition: 150ms;
 }
