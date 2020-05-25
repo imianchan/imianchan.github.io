@@ -7,7 +7,7 @@ body {
 }
 
 ::selection { 
-  background-color: #d4c3ef;
+  background-color: #e3d7f4;
 } 
 
 header {
@@ -15,7 +15,6 @@ header {
   display: block;
     width: 100%;
     padding: 20px 0 20px 0;
-  font-weight: 300;
 }
 
 h1 {
@@ -52,7 +51,7 @@ div.list a:hover {
 
 div.container {
   display: inline-block;
-  text-align: center;
+  text-align: center !important;
   padding: 5px;
   height: 200px;
   width: 200px;
@@ -70,27 +69,28 @@ nav {
   text-align: center;
 }
 
+b {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
 nav a {
   text-decoration-line: none;
   color: #262626;
   padding: 0 16px 0 16px;
-  display:inline-block;
+  display: inline-block;
   letter-spacing: 0.02em;
 }
 
 nav a:hover {
-  background-color: #d4c3ef;
+  background-color: #e3d7f4;
+  font-weight: bolder;
   transition: 400ms;
 }
 
 .current {
   font-weight: 500;
-  color: #000000;
-}
-
-b {
-  font-weight: 500;
-  letter-spacing: 0.02em;
+  color: #000000 !important;
 }
 
 main {
@@ -157,7 +157,7 @@ td, th {
 
 th {
   background-color: #dadada;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 tr:nth-child(even) {
