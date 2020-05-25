@@ -11,10 +11,15 @@ body {
 } 
 
 header {
-  text-align: center;
-  display: inline-block;
+  display: block;
   width: 100%;
   padding: 20px 0 20px 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
