@@ -1,5 +1,5 @@
 html * {
-  font-family: Helvetica, Arial, sans-serif !important;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -22,7 +22,7 @@ h1 {
   font-size: 24pt;
   text-align: center;
   font-weight: 350;
-  color: #381B65 !important;
+  color: #381B65;
 }
 
 h3 {
@@ -32,6 +32,7 @@ h3 {
 header a {
   text-decoration: none;
   color: #000000;
+  text-align: center;
 }
 
 div.list {
@@ -176,7 +177,6 @@ footer p {
   text-align: center;
   text-decoration: none;
   background: white;
-  color: #8d5ed4;
 }
 
 .fa:hover {
